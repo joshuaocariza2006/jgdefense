@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(fie.avif);
+    background-size: 100% 200%; 
+    background-repeat: no-repeat;
+  }
+
+
+  header {
+      background: #333;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+      font-size: 2rem;
+  }
+
+  nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+  }
+
+  nav a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 2rem;
+      margin: 0 10px;
+      border-radius: 10px;
+      padding: 15px;
+  }
+
+  nav a:hover {
+      background-color: #ff1b1b;
+      color: #fff;
+  }
+
+  section {
+      padding: 15px;
+      margin: 20px;
+      background-attachment: fixed;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      font-display: thick;
+  }
+
+  section {
+      padding: 15px;
+      margin: 20px;
+      background-attachment: fixed;
+      background-size: cover; 
+      animation: moveBackground 15s linear infinite; 
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      font-display: thick;
+}
+
+
+
+  iframe {
+      width: 100%;
+      max-width: 450px;
+      height: 250px;
+      border: 2px solid #ff1b1b;
+      border-radius: 10px;
+  }
+
+  .creator-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .creator-card {
+      background: #fff;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .creator-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .creator-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+  }
+
+  .social-icons a {
+      margin: 5px;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+      padding: 10px;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 8px;
+}
+
+.logo-display{
+    width: 250px;
+    margin-left: 20px; 
+    margin-top: 10px; 
+    float: left; 
+    display: grid;
+}
+
+nav {
+display: flex;
+gap: 20px;
+}
+
+nav a {
+color: white;
+padding: 10px 15px;
+text-decoration: none;
+font-size: 18px;
+border-radius: 10px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+background-color: #ff1b1b;
+color: #fff;
+}
+
+.logo-section {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.logo {
+width: 50px;
+height: 50px;
+border-radius: 8px;
+}
+
+.company-name {
+color: white;
+font-size: 20px;
+font-weight: bold;
+font-family: Arial, sans-serif;
+}
+h1 {
+font-size: 70px;
+color: purple;
+font-weight: bold;
+-webkit-text-fill-color: #fff;
+-webkit-text-stroke: 3px purple;
+}
+footer {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align: center;
+font-weight: bold;
+color: #fff;
+}
+
+h3 {
+color: #fff;
+font-weight: bold;
+
+}
+h1{
+   text-align:center;
+}
+img {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left; display: grid
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .company-name {
+        font-size: 18px;
+    }
+
+    .creator-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    header {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .creator-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .creator-card img {
+        width: 80px;
+        height: 80px;
+    }
+}
